@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    
+}
+.account{
+    margin:0 820px -20px;
+    float:left;
+    padding-top: 20px;
+    left: 200%;
+    
+
+}
+.account a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.account a:hover
+{
+    color: cornflowerblue;
+}
+.link1{
+    margin-right: 10px;
+    
+}
+.link2{
+    margin-left: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+ul{
+    
+     margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+ul li{
+    float: left;
+    text-align:center;
+    width:200px;
+    height:60px;
+    line-height: 0;
+    font-size: 20;
+    
+}
+.menubar ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+   padding:30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+ul li a:hover{
+    background-color: #1c8adb;
+}
+
+
+
+.menubar{
+    display:block;
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    height: 150px;
+    
+}
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+    background: rgba(0,0,0,0.5);
+}
+
+.menu,li{
+    
+    display: inline-block;
+}
+
+input[type=text]{
+   background-image:url("search.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border-radius: 20px;
+     padding: 5px 10px 10px 32px;
+    margin-top: 5px;
+    margin-left: 50px;
+    outline: none;
+    color: white;
+    width: 190px;
+  right: 10px;
+    padding-right: 5px;
+    background: rgba(0,0,0,.5);
+    transition: width 0.4s case-in-out;
+}
+input[type=text]:hover{
+    width: 170%;
+}
